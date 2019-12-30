@@ -11,13 +11,13 @@
     <body>
     
     <?php
-$servername = "localhost";
 
 
 
 try {
+    $servername = "localhost";
     $username = "colasa2017";
-    $password = "T+HqsamGrX";
+    $password = "XpGEnY92SC";
     $conn = new PDO("mysql:host=$servername;dbname=colasa2017", trim($username),trim($password));
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
